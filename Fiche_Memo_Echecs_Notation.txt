@@ -1,0 +1,66 @@
+
+FICHE MÉMO – NOTATION DES COUPS AUX ÉCHECS (Notation algébrique)
+
+1. NOMS DES PIÈCES (en anglais) :
+- Roi       : K
+- Dame      : Q
+- Tour      : R
+- Fou       : B
+- Cavalier  : N
+- Pion      : (aucune lettre)
+
+2. DÉSIGNATION DES CASES :
+- Colonnes : a à h (gauche à droite)
+- Rangées  : 1 à 8 (du bas vers le haut pour les blancs)
+- Exemple : e4, d5, g7...
+
+3. DÉPLACEMENTS SIMPLES :
+- Pion : e4 (avance sur e4)
+- Cavalier : Nf3
+- Fou : Bc4
+- Tour : Re1
+
+4. PRISES :
+- Ajouter "x" entre la pièce et la case cible :
+  - exd5 (pion colonne e prend en d5)
+  - Nxf6 (cavalier prend en f6)
+  - Qxe5, Rxa8
+
+5. DÉSAMBIGUÏSATION (si deux pièces peuvent aller sur la même case) :
+- Ajouter la colonne ou la rangée, ou les deux :
+  - R1a5 : tour de la 1ère rangée va en a5
+  - R3a5 : tour de la 3e rangée va en a5
+  - Rad1 : tour colonne a va en d1
+  - Rhd1 : tour colonne h va en d1
+
+6. ROQUES :
+- Petit roque : O-O
+- Grand roque : O-O-O
+
+7. PROMOTION :
+- Le pion atteint la 8e rangée :
+  - e8=Q (pion devient dame)
+  - fxg8=N (prise avec promotion en cavalier)
+
+8. ÉCHEC ET MAT :
+- Échec : +  (ex : Qh5+)
+- Mat   : #  (ex : Qg7#)
+
+9. PRISE EN PASSANT :
+- Note classique : exd6 (si d5 vient d’être joué)
+- Pas de notation spéciale, contexte nécessaire
+
+10. CAS DES PIONS :
+- Avancées simples : jamais ambiguës → e5, d6...
+- Prises : colonne d’origine suffit → exd5, gxf6...
+
+11. EXEMPLE DE PARTIE :
+1. e4 e5
+2. Nf3 Nc6
+3. Bb5 a6
+4. Ba4 Nf6
+5. O-O Be7
+6. Re1 b5
+7. Bb3 d6
+8. c3 O-O
+9. h3 Nb8
